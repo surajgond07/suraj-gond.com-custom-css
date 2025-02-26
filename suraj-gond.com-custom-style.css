@@ -457,11 +457,21 @@ span.tdb-bred-no-url-last {
 
 /* WPForms plugin styles */
 
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  padding: 13px 16px 24px 0;
+  clear: both;
+  position: relative;
+  text-align: center;
+}
+
 div.wpforms-container
   .wpforms-form
   div.wpforms-submit-container
   button[type="submit"] {
   background-color: #d8006c;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 79px;
   font-family: "Open Sans", "Open Sans Regular", sans-serif;
 }
 
@@ -473,7 +483,7 @@ div.wpforms-container
     font-size: 16px;
     font-weight: 600;
     padding: 9px 100px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-bottom: 35px;
   }
 }
@@ -486,7 +496,7 @@ div.wpforms-container
     font-size: 16px;
     font-weight: 600;
     padding: 9px 180px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-bottom: 35px;
     margin-top: 20px;
   }
@@ -497,7 +507,8 @@ div.wpforms-container
     .wpforms-form
     div.wpforms-submit-container
     button[type="submit"] {
-    padding: 9px 225px;
+    padding: 9px 270px;
+    /* margin-left: 150px; */
   }
 }
 
